@@ -1,0 +1,187 @@
+.body {
+    font-family: 'Montserrat', sans-serif;
+}
+.headerIcon ,.back-to-up-icon{
+    transition: transform 0.5s;
+}
+
+.back-to-up-icon ,.headerIcon:hover{
+    transform: translateY(-7px);
+}
+
+
+
+  .btnAnimation {
+    color: #fff;
+    background-image: -webkit-linear-gradient(45deg, #01BFAE 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #01BFAE 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+  }
+  .btnAnimation:hover {
+    background-position: 0;
+  }
+
+  .customHeroBtn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #01BFAE;
+    color: #01BFAE;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1.2rem;
+    line-height: 1;
+    padding: 1em 2.3em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+  }
+  .customHeroBtn:hover{
+    color: #fff;
+    outline: 0;
+  }
+  
+
+  .heroTitle{
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+ /* .skillsContainer{
+     background-color: #01BFAE;
+ } */
+ .skills-title{
+     font-weight: 700;
+     color: white;
+ }
+ .skillsBtnAnimation {
+    color: red;
+    background-image: -webkit-linear-gradient(45deg, white 50%, transparent 50%);
+    background-image: linear-gradient(45deg,  50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+  }
+  .skillsBtnAnimation:hover {
+    background-position: 0;
+  }
+ .customSkillsBtn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: solid white;
+    color: white;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    padding: 1em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    display: inline-block;
+    width: 100%;
+  }
+  .customSkillsBtn:hover{
+    color: #01BFAE;
+    outline: 0;
+  }
+
+  .custom-project-btn{
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #01BFAE;
+    color: #01BFAE;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 0.7em 1.5em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+
+  .custom-project-btn:hover{
+    color: #fff;
+    outline: 0;
+  }
+
+  .skills-title, .project-title, .about-title, .projects-title{
+    font-weight: 700;
+  }
+
+  /* .about-container{
+    background-color: #01BFAE;
+  } */
+
+  .about-title{
+      color: white;
+  }
+
+  .about-text{
+      color: white;
+  }
+
+  #about, #skills{
+    background-color: #02aab0;
+    background-image: linear-gradient(135deg,#02aab0,#00cdac);
+    color: #fff;
+    border-top: 0;
+    height: 100%;
+    border-top: 0;
+    padding: 9rem 0 9rem;
+    -webkit-clip-path: polygon(0 15vh,100% 0,100% 80%,0 100%);
+    clip-path: polygon(0 10vh,100% 0,100% 80%,0 100%);
+  }
+
+@media screen and (max-width: 992px) {
+    
+    .heroTitle{
+        font-size: 30px;
+        text-align: center;
+      }
+
+    .customHeroBtn{
+       display: inline-block;
+       width: 100%;
+    }
+
+}
